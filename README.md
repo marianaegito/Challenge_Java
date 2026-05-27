@@ -38,15 +38,11 @@ Por fim, o projeto busca demonstrar como a modelagem UML pode ser utilizada para
 
 # Diagrama UML
 
-![Diagrama de Classes](diagrama_uml.png)
+![Diagrama de Classes](<img width="1484" height="1711" alt="Blankdiagram" src="https://github.com/user-attachments/assets/67011afc-abcc-4921-9c43-fe4637b8ca5f" />
+)
 
-🔗 [Lucidchart — Diagrama UML](https://lucid.app/lucidchart/ae0810ed-76dd-45c9-b330-3fbf43514e5a/edit?viewport_loc=-1449%2C-670%2C1652%2C803%2C0_0&invitationId=inv_d353e8b3-55ca-4065-ba82-d4c47cb69daa)
-
----
-
-# Modelo Lógico
-
-![Modelo Lógico](modelo_logico.png)
+# Link do Diagrama UML
+[Lucidchart - Diagrama UML](https://lucid.app/lucidchart/ae0810ed-76dd-45c9-b330-3fbf43514e5a/edit?viewport_loc=-1449%2C-670%2C1652%2C803%2C0_0&invitationId=inv_d353e8b3-55ca-4065-ba82-d4c47cb69daa)
 
 ---
 
@@ -222,30 +218,30 @@ Por fim, o projeto busca demonstrar como a modelagem UML pode ser utilizada para
 # Estrutura do Projeto
 
 ```text
-📦 src
- ┗ 📦 main
-    ┗ 📦 java
-       ┣ 📦 application
-       ┃  ┗ 📜 Main.java
-       ┣ 📦 model
-       ┃  ┣ 📦 enums
-       ┃  ┃  ┣ 📜 FormatoReuniao.java
-       ┃  ┃  ┣ 📜 Sentimento.java
-       ┃  ┃  ┣ 📜 StatusReuniao.java
-       ┃  ┃  ┗ 📜 TipoReuniao.java
-       ┃  ┣ 📜 Cliente.java
-       ┃  ┣ 📜 Insight.java
-       ┃  ┣ 📜 Produto.java
-       ┃  ┣ 📜 Reuniao.java
-       ┃  ┣ 📜 Transcricao.java
-       ┃  ┣ 📜 Usuario.java
-       ┃  ┗ 📜 Vendedor.java
-       ┣ 📦 repository
-       ┃  ┣ 📜 InsightRepository.java
-       ┃  ┗ 📜 TranscricaoRepository.java
-       ┗ 📦 service
-          ┣ 📜 AnaliseService.java
-          ┗ 📜 ReuniaoService.java
+src
+ ┗ main
+    ┗ java
+       ┣ application
+       ┃  ┗ Main.java
+       ┣ model
+       ┃  ┣ enums
+       ┃  ┃  ┣ FormatoReuniao.java
+       ┃  ┃  ┣ Sentimento.java
+       ┃  ┃  ┣ StatusReuniao.java
+       ┃  ┃  ┗ TipoReuniao.java
+       ┃  ┣ Cliente.java
+       ┃  ┣ Insight.java
+       ┃  ┣ Produto.java
+       ┃  ┣ Reuniao.java
+       ┃  ┣ Transcricao.java
+       ┃  ┣ Usuario.java
+       ┃  ┗ Vendedor.java
+       ┣ repository
+       ┃  ┣ InsightRepository.java
+       ┃  ┗ TranscricaoRepository.java
+       ┗ service
+          ┣ AnaliseService.java
+          ┗ ReuniaoService.java
 ```
 
 ---
